@@ -1,0 +1,5 @@
+I feel comfortable coding in C as i am familiar with it compared to other languages 
+As Dijkstra's goal is to find the optimal path , itcannot work with negative weights, since it cannot find the optimal path.
+Prims and Kruskal are working fine but in some cases the less weight value ignores the connectivity between two nodes.
+Prim’s algorithm assumes that all vertices are connected. But in a directed graph, every node is not reachable from every other node. So, Prim’s algorithm fails due to this reason.Kruskal algorithm fails to detect cycle in a connected graph.
+So in certain cases Kruskal assumes that there is a cycle if evn there is not and fails due to that case.
